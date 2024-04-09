@@ -15,7 +15,7 @@
 确保你已经安装了Go环境（版本1.13及以上）。然后执行以下命令：
 
 ```bash
-go install github.com/pyronn/filerenamer@latest
+go install github.com/pyronn/batch-rename@latest
 ```
 
 这将编译并安装文件重命名工具到你的`$GOPATH/bin`目录下。
@@ -25,7 +25,7 @@ go install github.com/pyronn/filerenamer@latest
 在命令行中，你可以通过以下方式使用文件重命名工具：
 
 ```bash
-filerenamer [options]
+batch-rename [options]
 ```
 
 ### 选项
